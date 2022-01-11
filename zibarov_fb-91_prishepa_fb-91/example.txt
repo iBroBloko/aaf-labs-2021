@@ -14,5 +14,5 @@ SELECT *
  where owner_age > "16";
  delete from cats where cat_name = "Murzik";
 DELETE FROM cats;
-DELETE cats WHERE name = "Murzik";
-DELETE cats WHERE id != "2";
+DELETE FROM cats WHERE cat_name = "Murzik";
+DELETE FROM cats WHERE cat_id != "12";
