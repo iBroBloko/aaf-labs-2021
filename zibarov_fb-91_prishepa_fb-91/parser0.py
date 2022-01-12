@@ -58,7 +58,7 @@ def parse(command):
                 for arg in args:
 
                     if re.match("\s*\w+\s*", arg):
-                        res.append([arg.strip(), "0"])
+                        res.append(arg.strip())
                     else:
                         res.clear()
                         res.append(["5", "bad col name!"])

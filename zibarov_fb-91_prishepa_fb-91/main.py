@@ -122,7 +122,7 @@ def select(args, list):
 if __name__ == '__main__':
     db = []
     res = ""
-    Tables = []
+
     while True:
         print("")
         print("Enter:")
